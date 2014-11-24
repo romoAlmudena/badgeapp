@@ -1,0 +1,8 @@
+Systems
+GET /systems
+POST /systems
+GET /systems/:slug
+PUT /systems/:slug
+DELETE /systems/:slug
+
+

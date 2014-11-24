@@ -1,0 +1,5 @@
+GET /systems/:slug/issuers
+POST /systems/:slug/issuers
+GET /systems/:slug/issuers/:slug
+PUT /systems/:slug/issuers/:slug
+DELETE /systems/:slug/issuers/:slug
