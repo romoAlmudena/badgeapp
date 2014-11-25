@@ -12,6 +12,32 @@ import com.google.gson.Gson;
 
 public class generateHmac {
 	
+	/*
+	public String getHmac(){
+		String secretKey = "yoursecret";
+		
+
+		
+		//String salt = "{\"key\":\"master\",\"exp\":1414519415458,\"method\":\"GET\",\"path\":\"/systems/badgekit/badges\"}";
+		Gson gson = new Gson();
+		BadgeApiBadgeRequest request = new BadgeApiBadgeRequest();
+
+		
+		String generateHmacSHA256Signature = null;
+		try {
+			String data = gson.toJson(request.getPayload());
+			System.out.println(data);
+			generateHmacSHA256Signature = generateHmacSHA256Signature(data, secretKey);
+			System.out.println("Signature: " + generateHmacSHA256Signature);
+		} catch (GeneralSecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return generateHmacSHA256Signature;
+
+	}
+	*/
 	
 	public String getHmac(String method, String path){
 		String secretKey = "yoursecret";
