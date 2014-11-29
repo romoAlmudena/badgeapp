@@ -1,5 +1,0 @@
-GET /systems/:slug/issuers/:slug/programs
-POST /systems/:slug/issuers/:slug/programs
-GET /systems/:slug/issuers/:slug/programs/:slug
-PUT /systems/:slug/issuers/:slug/programs/:slug
-DELETE /systems/:slug/issuers/:slug/programs/:slug
